@@ -1,4 +1,4 @@
-# pyramid-react-template
+# UTS PWL
 A starting off point for a web application that uses Pyramid in the back-end and React in the frontend
 
 - [Setting up your environment](#setting-up-your-environment)
