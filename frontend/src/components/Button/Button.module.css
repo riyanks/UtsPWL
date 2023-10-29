@@ -1,0 +1,19 @@
+.Button {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    border-color: gray;
+    background-color: gray;
+}
+
+.ButtonBig {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ButtonMedium {
+    padding: 5px;
+    border-radius: 5px;
+}
