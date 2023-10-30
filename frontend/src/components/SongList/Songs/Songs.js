@@ -16,9 +16,9 @@ const Songs = (props) => {
                 <tr>
                     <th>Id</th>
                     <th>Name</th>
-                    <th>Artist</th>
-                    <th>Genre</th>
-                    <th>Date Created</th>
+                    <th>Merk</th>
+                    <th>Jenis</th>
+                    <th>Tanggal Dibuat</th>
                     <th>Actions</th>
                 </tr>
                 </thead>

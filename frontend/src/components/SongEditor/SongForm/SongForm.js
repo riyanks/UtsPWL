@@ -4,7 +4,7 @@ import classes from "./SongForm.module.css";
 const SongForm = (props) => {
     return (
         <form className={classes.SongForm}>
-            <div className={classes.SongFormLabel}>Name</div>
+            <div className={classes.SongFormLabel}>Nama</div>
             <input
                 className={classes.SongFormInput}
                 name="name"
@@ -12,7 +12,7 @@ const SongForm = (props) => {
                 value={props.song.name}
                 maxLength="50"
                 onChange={(event) => props.modifySong("name", event.target.value)}/>
-            <div className={classes.SongFormLabel}>Artist</div>
+            <div className={classes.SongFormLabel}>Jenis</div>
             <input
                 className={classes.SongFormInput}
                 name="artist"
@@ -20,7 +20,7 @@ const SongForm = (props) => {
                 value={props.song.artist}
                 maxLength="50"
                 onChange={(event) => props.modifySong("artist", event.target.value)}/>
-            <div className={classes.SongFormLabel}>Genre</div>
+            <div className={classes.SongFormLabel}>Merk</div>
             <input
                 className={classes.SongFormInput}
                 name="genre"

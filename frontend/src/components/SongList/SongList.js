@@ -16,7 +16,7 @@ const SongList = (props) => {
             <Button
                 style={btnStyle}
                 size="big"
-                link="/edit">Add Song</Button>
+                link="/edit">Add Produk</Button>
             <Songs songs={props.songs} deleteSong={props.deleteSong}/>
         </div>
     );

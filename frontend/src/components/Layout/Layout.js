@@ -7,7 +7,7 @@ const Layout = (props) => {
     return (
         <Aux>
             <div className={classes.NavBar}>
-                <h1><Link to="/">Song Library</Link></h1>
+                <h1><Link to="/">Toko UTS Riyan</Link></h1>
             </div>
             <main className={classes.Content}>
                 {props.children}
